@@ -10,7 +10,7 @@ Sub WorksheetExport()
     
     Set wsDash = Worksheets("All Direct and NC Hosts")
     
-    filePathToSave = "E:\Gist Technologies\NIB\New folder"
+    filePathToSave = "E:\Gist Technologies\NIB\New folder\"
     
     For Each ws In ThisWorkbook.Worksheets
     
