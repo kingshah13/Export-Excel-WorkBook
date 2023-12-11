@@ -8,9 +8,9 @@ Sub WorksheetExport()
     
     Application.ScreenUpdating = False
     
-    Set wsDash = Worksheets("All Direct and NC Hosts")
+    Set wsDash = Worksheets("All Direct and NC Hosts") 'Main workbook name or workbook you don't need to be exported'
     
-    filePathToSave = "E:\Gist Technologies\NIB\New folder\"
+    filePathToSave = "E:\Gist Technologies\NIB\New folder\" 'Must close the directory path with backslash'
     
     For Each ws In ThisWorkbook.Worksheets
     
