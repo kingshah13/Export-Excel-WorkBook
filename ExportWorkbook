@@ -1,0 +1,31 @@
+Option Explicit
+Sub WorksheetExport()
+
+    Dim ws As Worksheet
+    Dim wsDash As Worksheet
+    Dim wbToSave As Workbook
+    Dim filePathToSave As String
+    
+    Application.ScreenUpdating = False
+    
+    Set wsDash = Worksheets("All Direct and NC Hosts")
+    
+    filePathToSave = "E:\Gist Technologies\NIB\New folder"
+    
+    For Each ws In ThisWorkbook.Worksheets
+    
+        If ws.Name <> wsDash.Name Then
+        
+            ws.Copy
+            
+            Set wbToSave = ActiveWorkbook
+            
+            wbToSave.SaveAs _
+                Filename:=filePathToSave & wbToSave.Worksheets(1).Name & ".xlsx", _
+                FileFormat:=51
+                
+            wbToSave.Close True
+        End If
+    Next ws
+    Application.ScreenUpdating = True
+End Sub
