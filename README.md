@@ -24,6 +24,6 @@ Note: Make sure to save your Excel workbook before running the macro, as it invo
 
 ## Credits
 
-This repo is just for archival purposes only. I did not write the code. All Credits go to [TeachExcel](https://www.youtube.com/user/TutoringWithTeachExcel). The original tutorial video can be found [here](https://www.youtube.com/watch?v=FEmZC2Z8LXM&ab_channel=TeachExcel).
+This repo is just for archival purposes only. I did not write the code. All Credits go to [TeachExcel]([https://www.youtube.com/user/TutoringWithTeachExcel](https://www.youtube.com/@TeachExcel)). The original tutorial video can be found [here](https://www.youtube.com/watch?v=FEmZC2Z8LXM&ab_channel=TeachExcel).
 
 Happy coding!
